@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,21,262,Flamengo,284,Grêmio,,,270512,,,True
+1,21,264,Corinthians,327,América-MG,,,270513,,,True
+2,21,276,São Paulo,373,Atlético-GO,,,270514,,,True
+3,21,282,Atlético-MG,292,Sport,,,270515,,,True
+4,21,285,Internacional,356,Fortaleza,,,270516,,,True
+5,21,354,Ceará,277,Santos,,,270517,,,True
+6,21,265,Bahia,280,Bragantino,,,270518,,,True
+7,21,293,Athletico-PR,286,Juventude,,,270519,,,True
+8,21,315,Chapecoense,275,Palmeiras,,,270520,,,True
+9,21,1371,Cuiabá,266,Fluminense,,,270521,,,True
+10,21,284,Grêmio,262,Flamengo,,,270512,,,False
+11,21,327,América-MG,264,Corinthians,,,270513,,,False
+12,21,373,Atlético-GO,276,São Paulo,,,270514,,,False
+13,21,292,Sport,282,Atlético-MG,,,270515,,,False
+14,21,356,Fortaleza,285,Internacional,,,270516,,,False
+15,21,277,Santos,354,Ceará,,,270517,,,False
+16,21,280,Bragantino,265,Bahia,,,270518,,,False
+17,21,286,Juventude,293,Athletico-PR,,,270519,,,False
+18,21,275,Palmeiras,315,Chapecoense,,,270520,,,False
+19,21,266,Fluminense,1371,Cuiabá,,,270521,,,False

@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,12,276,São Paulo,356,Fortaleza,0,1,270354,2021-07-17T17:00,17:00,True
+1,12,354,Ceará,293,Athletico-PR,1,0,270357,2021-07-17T17:00,17:00,True
+2,12,264,Corinthians,282,Atlético-MG,1,2,270351,2021-07-17T19:00,19:00,True
+3,12,266,Fluminense,284,Grêmio,0,1,270352,2021-07-17T21:00,21:00,True
+4,12,315,Chapecoense,1371,Cuiabá,2,3,270360,2021-07-18T11:00,11:00,True
+5,12,373,Atlético-GO,275,Palmeiras,0,3,270359,2021-07-18T16:00,16:00,True
+6,12,265,Bahia,262,Flamengo,0,5,270353,2021-07-18T18:15,18:15,True
+7,12,285,Internacional,286,Juventude,1,0,270356,2021-07-18T20:30,20:30,True
+8,12,280,Bragantino,277,Santos,2,2,270358,2021-07-18T20:30,20:30,True
+9,12,327,América-MG,292,Sport,0,1,270355,2021-07-19T20:00,20:00,True
+10,12,356,Fortaleza,276,São Paulo,1,0,270354,2021-07-17T17:00,17:00,False
+11,12,293,Athletico-PR,354,Ceará,0,1,270357,2021-07-17T17:00,17:00,False
+12,12,282,Atlético-MG,264,Corinthians,2,1,270351,2021-07-17T19:00,19:00,False
+13,12,284,Grêmio,266,Fluminense,1,0,270352,2021-07-17T21:00,21:00,False
+14,12,1371,Cuiabá,315,Chapecoense,3,2,270360,2021-07-18T11:00,11:00,False
+15,12,275,Palmeiras,373,Atlético-GO,3,0,270359,2021-07-18T16:00,16:00,False
+16,12,262,Flamengo,265,Bahia,5,0,270353,2021-07-18T18:15,18:15,False
+17,12,286,Juventude,285,Internacional,0,1,270356,2021-07-18T20:30,20:30,False
+18,12,277,Santos,280,Bragantino,2,2,270358,2021-07-18T20:30,20:30,False
+19,12,292,Sport,327,América-MG,1,0,270355,2021-07-19T20:00,20:00,False

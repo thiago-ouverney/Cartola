@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,4,276,São Paulo,315,Chapecoense,1.0,1.0,270184,2021-06-16T19:00,19:00,True
+1,4,285,Internacional,282,Atlético-MG,0.0,1.0,270185,2021-06-16T19:00,19:00,True
+2,4,264,Corinthians,280,Bragantino,1.0,2.0,270183,2021-06-16T20:30,20:30,True
+3,4,286,Juventude,275,Palmeiras,0.0,3.0,270186,2021-06-16T21:30,21:30,True
+4,4,354,Ceará,265,Bahia,1.0,2.0,270188,2021-06-17T16:00,16:00,True
+5,4,327,América-MG,1371,Cuiabá,0.0,0.0,270189,2021-06-17T16:00,16:00,True
+6,4,266,Fluminense,277,Santos,1.0,0.0,270182,2021-06-17T19:00,19:00,True
+7,4,292,Sport,284,Grêmio,1.0,0.0,270187,2021-06-17T19:00,19:00,True
+8,4,373,Atlético-GO,356,Fortaleza,0.0,0.0,270190,2021-06-17T19:00,19:00,True
+9,4,293,Athletico-PR,262,Flamengo,,,270181,,,True
+10,4,315,Chapecoense,276,São Paulo,1.0,1.0,270184,2021-06-16T19:00,19:00,False
+11,4,282,Atlético-MG,285,Internacional,1.0,0.0,270185,2021-06-16T19:00,19:00,False
+12,4,280,Bragantino,264,Corinthians,2.0,1.0,270183,2021-06-16T20:30,20:30,False
+13,4,275,Palmeiras,286,Juventude,3.0,0.0,270186,2021-06-16T21:30,21:30,False
+14,4,265,Bahia,354,Ceará,2.0,1.0,270188,2021-06-17T16:00,16:00,False
+15,4,1371,Cuiabá,327,América-MG,0.0,0.0,270189,2021-06-17T16:00,16:00,False
+16,4,277,Santos,266,Fluminense,0.0,1.0,270182,2021-06-17T19:00,19:00,False
+17,4,284,Grêmio,292,Sport,0.0,1.0,270187,2021-06-17T19:00,19:00,False
+18,4,356,Fortaleza,373,Atlético-GO,0.0,0.0,270190,2021-06-17T19:00,19:00,False
+19,4,262,Flamengo,293,Athletico-PR,,,270181,,,False

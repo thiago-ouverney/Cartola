@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,9,327,América-MG,277,Santos,2,0,270274,2021-07-03T19:00,19:00,True
+1,9,293,Athletico-PR,356,Fortaleza,2,1,270278,2021-07-03T19:00,19:00,True
+2,9,264,Corinthians,285,Internacional,1,1,270272,2021-07-03T21:00,21:00,True
+3,9,315,Chapecoense,265,Bahia,0,2,270280,2021-07-04T11:00,11:00,True
+4,9,262,Flamengo,266,Fluminense,0,1,270271,2021-07-04T16:00,16:00,True
+5,9,292,Sport,275,Palmeiras,0,1,270275,2021-07-04T16:00,16:00,True
+6,9,276,São Paulo,280,Bragantino,1,2,270273,2021-07-04T18:15,18:15,True
+7,9,354,Ceará,286,Juventude,2,0,270277,2021-07-04T18:15,18:15,True
+8,9,1371,Cuiabá,282,Atlético-MG,0,1,270279,2021-07-04T18:15,18:15,True
+9,9,284,Grêmio,373,Atlético-GO,0,1,270276,2021-07-04T20:30,20:30,True
+10,9,277,Santos,327,América-MG,0,2,270274,2021-07-03T19:00,19:00,False
+11,9,356,Fortaleza,293,Athletico-PR,1,2,270278,2021-07-03T19:00,19:00,False
+12,9,285,Internacional,264,Corinthians,1,1,270272,2021-07-03T21:00,21:00,False
+13,9,265,Bahia,315,Chapecoense,2,0,270280,2021-07-04T11:00,11:00,False
+14,9,266,Fluminense,262,Flamengo,1,0,270271,2021-07-04T16:00,16:00,False
+15,9,275,Palmeiras,292,Sport,1,0,270275,2021-07-04T16:00,16:00,False
+16,9,280,Bragantino,276,São Paulo,2,1,270273,2021-07-04T18:15,18:15,False
+17,9,286,Juventude,354,Ceará,0,2,270277,2021-07-04T18:15,18:15,False
+18,9,282,Atlético-MG,1371,Cuiabá,1,0,270279,2021-07-04T18:15,18:15,False
+19,9,373,Atlético-GO,284,Grêmio,1,0,270276,2021-07-04T20:30,20:30,False

@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,11,275,Palmeiras,277,Santos,3,2,270332,2021-07-10T16:30,16:30,True
+1,11,284,Grêmio,285,Internacional,0,0,270334,2021-07-10T16:30,16:30,True
+2,11,293,Athletico-PR,280,Bragantino,2,2,270338,2021-07-10T17:30,17:30,True
+3,11,276,São Paulo,265,Bahia,1,0,270333,2021-07-10T19:00,19:00,True
+4,11,327,América-MG,282,Atlético-MG,0,1,270335,2021-07-10T19:00,19:00,True
+5,11,292,Sport,266,Fluminense,1,2,270337,2021-07-10T19:00,19:00,True
+6,11,286,Juventude,373,Atlético-GO,1,1,270339,2021-07-11T11:00,11:00,True
+7,11,262,Flamengo,315,Chapecoense,2,1,270331,2021-07-11T18:15,18:15,True
+8,11,1371,Cuiabá,354,Ceará,2,2,270340,2021-07-11T18:15,18:15,True
+9,11,356,Fortaleza,264,Corinthians,1,0,270336,2021-07-11T20:30,20:30,True
+10,11,277,Santos,275,Palmeiras,2,3,270332,2021-07-10T16:30,16:30,False
+11,11,285,Internacional,284,Grêmio,0,0,270334,2021-07-10T16:30,16:30,False
+12,11,280,Bragantino,293,Athletico-PR,2,2,270338,2021-07-10T17:30,17:30,False
+13,11,265,Bahia,276,São Paulo,0,1,270333,2021-07-10T19:00,19:00,False
+14,11,282,Atlético-MG,327,América-MG,1,0,270335,2021-07-10T19:00,19:00,False
+15,11,266,Fluminense,292,Sport,2,1,270337,2021-07-10T19:00,19:00,False
+16,11,373,Atlético-GO,286,Juventude,1,1,270339,2021-07-11T11:00,11:00,False
+17,11,315,Chapecoense,262,Flamengo,1,2,270331,2021-07-11T18:15,18:15,False
+18,11,354,Ceará,1371,Cuiabá,2,2,270340,2021-07-11T18:15,18:15,False
+19,11,264,Corinthians,356,Fortaleza,0,1,270336,2021-07-11T20:30,20:30,False

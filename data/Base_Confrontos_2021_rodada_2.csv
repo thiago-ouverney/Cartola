@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,2,373,Atlético-GO,276,São Paulo,2.0,0.0,270169,2021-06-05T19:00,19:00,True
+1,2,277,Santos,354,Ceará,3.0,1.0,270165,2021-06-05T21:00,21:00,True
+2,2,280,Bragantino,265,Bahia,3.0,3.0,270168,2021-06-05T21:00,21:00,True
+3,2,266,Fluminense,1371,Cuiabá,1.0,0.0,270163,2021-06-06T11:00,11:00,True
+4,2,327,América-MG,264,Corinthians,0.0,1.0,270162,2021-06-06T16:00,16:00,True
+5,2,356,Fortaleza,285,Internacional,5.0,1.0,270166,2021-06-06T16:00,16:00,True
+6,2,275,Palmeiras,315,Chapecoense,3.0,1.0,270164,2021-06-06T18:15,18:15,True
+7,2,286,Juventude,293,Athletico-PR,0.0,3.0,270170,2021-06-06T18:15,18:15,True
+8,2,292,Sport,282,Atlético-MG,0.0,1.0,270167,2021-06-06T20:30,20:30,True
+9,2,284,Grêmio,262,Flamengo,,,270161,,,True
+10,2,276,São Paulo,373,Atlético-GO,0.0,2.0,270169,2021-06-05T19:00,19:00,False
+11,2,354,Ceará,277,Santos,1.0,3.0,270165,2021-06-05T21:00,21:00,False
+12,2,265,Bahia,280,Bragantino,3.0,3.0,270168,2021-06-05T21:00,21:00,False
+13,2,1371,Cuiabá,266,Fluminense,0.0,1.0,270163,2021-06-06T11:00,11:00,False
+14,2,264,Corinthians,327,América-MG,1.0,0.0,270162,2021-06-06T16:00,16:00,False
+15,2,285,Internacional,356,Fortaleza,1.0,5.0,270166,2021-06-06T16:00,16:00,False
+16,2,315,Chapecoense,275,Palmeiras,1.0,3.0,270164,2021-06-06T18:15,18:15,False
+17,2,293,Athletico-PR,286,Juventude,3.0,0.0,270170,2021-06-06T18:15,18:15,False
+18,2,282,Atlético-MG,292,Sport,1.0,0.0,270167,2021-06-06T20:30,20:30,False
+19,2,262,Flamengo,284,Grêmio,,,270161,,,False

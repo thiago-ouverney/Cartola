@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,19,265,Bahia,356,Fortaleza,,,270538,2021-09-04T21:00,21:00,True
+1,19,1371,Cuiabá,277,Santos,,,270541,2021-09-04T21:00,21:00,True
+2,19,264,Corinthians,286,Juventude,,,270533,2021-09-07T21:30,21:30,True
+3,19,285,Internacional,280,Bragantino,,,270536,2021-09-07T21:30,21:30,True
+4,19,315,Chapecoense,266,Fluminense,,,270540,2021-09-07T21:30,21:30,True
+5,19,262,Flamengo,373,Atlético-GO,,,270532,,,True
+6,19,276,São Paulo,327,América-MG,,,270534,,,True
+7,19,282,Atlético-MG,284,Grêmio,,,270535,,,True
+8,19,354,Ceará,275,Palmeiras,,,270537,,,True
+9,19,293,Athletico-PR,292,Sport,,,270539,,,True
+10,19,356,Fortaleza,265,Bahia,,,270538,2021-09-04T21:00,21:00,False
+11,19,277,Santos,1371,Cuiabá,,,270541,2021-09-04T21:00,21:00,False
+12,19,286,Juventude,264,Corinthians,,,270533,2021-09-07T21:30,21:30,False
+13,19,280,Bragantino,285,Internacional,,,270536,2021-09-07T21:30,21:30,False
+14,19,266,Fluminense,315,Chapecoense,,,270540,2021-09-07T21:30,21:30,False
+15,19,373,Atlético-GO,262,Flamengo,,,270532,,,False
+16,19,327,América-MG,276,São Paulo,,,270534,,,False
+17,19,284,Grêmio,282,Atlético-MG,,,270535,,,False
+18,19,275,Palmeiras,354,Ceará,,,270537,,,False
+19,19,292,Sport,293,Athletico-PR,,,270539,,,False

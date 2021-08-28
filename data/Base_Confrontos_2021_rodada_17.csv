@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,17,373,Atlético-GO,315,Chapecoense,1,1,270471,2021-08-21T17:00,17:00,True
+1,17,284,Grêmio,265,Bahia,2,0,270466,2021-08-21T19:00,19:00,True
+2,17,286,Juventude,356,Fortaleza,1,1,270470,2021-08-21T21:00,21:00,True
+3,17,275,Palmeiras,1371,Cuiabá,0,2,270463,2021-08-22T11:00,11:00,True
+4,17,354,Ceará,262,Flamengo,1,1,270465,2021-08-22T16:00,16:00,True
+5,17,293,Athletico-PR,264,Corinthians,0,1,270469,2021-08-22T16:00,16:00,True
+6,17,277,Santos,285,Internacional,2,2,270464,2021-08-22T18:15,18:15,True
+7,17,292,Sport,276,São Paulo,0,1,270468,2021-08-22T20:30,20:30,True
+8,17,266,Fluminense,282,Atlético-MG,1,1,270462,2021-08-23T20:00,20:00,True
+9,17,327,América-MG,280,Bragantino,0,2,270467,2021-08-23T20:00,20:00,True
+10,17,315,Chapecoense,373,Atlético-GO,1,1,270471,2021-08-21T17:00,17:00,False
+11,17,265,Bahia,284,Grêmio,0,2,270466,2021-08-21T19:00,19:00,False
+12,17,356,Fortaleza,286,Juventude,1,1,270470,2021-08-21T21:00,21:00,False
+13,17,1371,Cuiabá,275,Palmeiras,2,0,270463,2021-08-22T11:00,11:00,False
+14,17,262,Flamengo,354,Ceará,1,1,270465,2021-08-22T16:00,16:00,False
+15,17,264,Corinthians,293,Athletico-PR,1,0,270469,2021-08-22T16:00,16:00,False
+16,17,285,Internacional,277,Santos,2,2,270464,2021-08-22T18:15,18:15,False
+17,17,276,São Paulo,292,Sport,1,0,270468,2021-08-22T20:30,20:30,False
+18,17,282,Atlético-MG,266,Fluminense,1,1,270462,2021-08-23T20:00,20:00,False
+19,17,280,Bragantino,327,América-MG,2,0,270467,2021-08-23T20:00,20:00,False

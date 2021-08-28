@@ -1,0 +1,21 @@
+,rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+0,18,292,Sport,315,Chapecoense,,,270488,2021-08-28T17:00,17:00,True
+1,18,277,Santos,262,Flamengo,,,270482,2021-08-28T19:00,19:00,True
+2,18,275,Palmeiras,293,Athletico-PR,,,270484,2021-08-28T21:00,21:00,True
+3,18,284,Grêmio,264,Corinthians,,,270485,2021-08-28T21:00,21:00,True
+4,18,327,América-MG,354,Ceará,,,270486,2021-08-29T11:00,11:00,True
+5,18,286,Juventude,276,São Paulo,,,270490,2021-08-29T16:00,16:00,True
+6,18,373,Atlético-GO,285,Internacional,,,270491,2021-08-29T18:15,18:15,True
+7,18,280,Bragantino,282,Atlético-MG,,,270489,2021-08-29T20:30,20:30,True
+8,18,266,Fluminense,265,Bahia,,,270483,2021-08-30T19:00,19:00,True
+9,18,356,Fortaleza,1371,Cuiabá,,,270487,2021-08-30T21:30,21:30,True
+10,18,315,Chapecoense,292,Sport,,,270488,2021-08-28T17:00,17:00,False
+11,18,262,Flamengo,277,Santos,,,270482,2021-08-28T19:00,19:00,False
+12,18,293,Athletico-PR,275,Palmeiras,,,270484,2021-08-28T21:00,21:00,False
+13,18,264,Corinthians,284,Grêmio,,,270485,2021-08-28T21:00,21:00,False
+14,18,354,Ceará,327,América-MG,,,270486,2021-08-29T11:00,11:00,False
+15,18,276,São Paulo,286,Juventude,,,270490,2021-08-29T16:00,16:00,False
+16,18,285,Internacional,373,Atlético-GO,,,270491,2021-08-29T18:15,18:15,False
+17,18,282,Atlético-MG,280,Bragantino,,,270489,2021-08-29T20:30,20:30,False
+18,18,265,Bahia,266,Fluminense,,,270483,2021-08-30T19:00,19:00,False
+19,18,1371,Cuiabá,356,Fortaleza,,,270487,2021-08-30T21:30,21:30,False

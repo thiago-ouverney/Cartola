@@ -2,6 +2,8 @@ import pandas as pd
 import requests, os
 #from google.cloud import storage
 
+
+# APIS VIA ENDPOINTS
 def get_base_atleta(rodada:int) -> dict:
     """
     Essa função nos retornará a base de atletas para determinada rodada
@@ -10,6 +12,15 @@ def get_base_atleta(rodada:int) -> dict:
     data = f.json()
     return data
 
+def get_base_rodada(rodada_atual:int) -> dict:
+    """
+    Essa função nos retornará a base de atletas para determinada rodada
+    """
+    f = requests.get(f"https://api.globoesporte.globo.com/tabela/d1a37fa4-e948-43a6-ba53-ab24ab3a45b1/fase/fase-unica-campeonato-brasileiro-2021/rodada/{str(rodada_atual)}/jogos")
+    data = f.json()
+    return data
+
+#AUXLIAR COLUNAS
 def get_colunas_scout(data: dict) -> list:
     id_atletas = list(data['atletas'].keys())
     colunas_scouts = []
@@ -20,6 +31,8 @@ def get_colunas_scout(data: dict) -> list:
                     colunas_scouts.append(scout)
     return colunas_scouts
 
+
+#GERANDO DATAFRAMES AUXILIARES
 def get_dataframe_atletas(rodada_atual: int) -> pd.DataFrame:
     # Where the magic begins
 
@@ -87,6 +100,37 @@ def get_dataframe_posicoes(rodada_inicial=1) -> pd.DataFrame:
 
     return (pd.DataFrame(base))
 
+def get_dataframe_jogos(rodada_atual: int) -> pd.DataFrame:
+    data = get_base_rodada(rodada_atual)
+    base = {}
+
+    colunas_inicial = ['data_realizacao', 'hora_realizacao', 'placar_oficial_visitante', 'placar_oficial_mandante']
+    coluna_equipes_mandantes = ['mandante_id', 'mandante_nome']
+    coluna_equipes_visitantes = ['visitante_id', 'visitante_nome']
+    colunas_base_rodada = ['rodada', 'jogo_id',
+                           'sede_nome'] + colunas_inicial + coluna_equipes_mandantes + coluna_equipes_visitantes
+
+    for coluna in colunas_base_rodada:
+        base[coluna] = []
+
+    for i in range(10):
+        base['rodada'].append(rodada_atual)
+        for chave in list(data[i].keys()):
+            if chave == 'id':
+                base['jogo_id'].append(data[i][chave])
+            elif chave in colunas_inicial:
+                base[chave].append(data[i][chave])
+            elif chave == 'equipes':
+                base['mandante_id'].append(data[i][chave]['mandante']['id'])
+                base['mandante_nome'].append(data[i][chave]['mandante']['nome_popular'])
+                base['visitante_id'].append(data[i][chave]['visitante']['id'])
+                base['visitante_nome'].append(data[i][chave]['visitante']['nome_popular'])
+            elif chave == 'sede':
+                base['sede_nome'].append(data[i][chave]['nome_popular'])
+
+    return pd.DataFrame(base)
+
+#GERANDO DATAFRAMES CONSOLIDADOS
 def get_dataframe_rodada(rodada_atual:int) -> pd.DataFrame:
     df_atletas = get_dataframe_atletas(rodada_atual)
     df_clubes = get_dataframe_clubes()
@@ -95,6 +139,41 @@ def get_dataframe_rodada(rodada_atual:int) -> pd.DataFrame:
     df = pd.merge(df_aux,df_posicoes,on = 'posicao_id',how='left')
     return df
 
+def get_dataframe_confrontos(rodada_atual: int) -> pd.DataFrame:
+    df = get_dataframe_jogos(rodada_atual)
+
+    df_visitante = pd.DataFrame()
+    df_visitante['rodada'] = df['rodada']
+    df_visitante['clube_id'] = df['visitante_id']
+    df_visitante['clube_nome'] = df['visitante_nome']
+    df_visitante['aversario_id'] = df['mandante_id']
+    df_visitante['aversario_nome'] = df['mandante_nome']
+    df_visitante['gols_pro'] = df['placar_oficial_visitante']
+    df_visitante['gols_contra'] = df['placar_oficial_mandante']
+    df_visitante['jogo_id'] = df['jogo_id']
+    df_visitante['data_realizacao'] = df['data_realizacao']
+    df_visitante['hora_realizacao'] = df['hora_realizacao']
+    df_visitante['mandante'] = False
+
+    df_mandante = pd.DataFrame()
+    df_mandante['rodada'] = df['rodada']
+    df_mandante['clube_id'] = df['mandante_id']
+    df_mandante['clube_nome'] = df['mandante_nome']
+    df_mandante['aversario_id'] = df['visitante_id']
+    df_mandante['aversario_nome'] = df['visitante_nome']
+    df_mandante['gols_pro'] = df['placar_oficial_mandante']
+    df_mandante['gols_contra'] = df['placar_oficial_visitante']
+    df_mandante['jogo_id'] = df['jogo_id']
+    df_mandante['data_realizacao'] = df['data_realizacao']
+    df_mandante['hora_realizacao'] = df['hora_realizacao']
+    df_mandante['mandante'] = True
+
+    df_confrontos = pd.concat([df_mandante, df_visitante], ignore_index=True)
+
+    return df_confrontos
+
+
+#Salvando Resultado Final
 def salvando_rodada(rodada_atual:int,path:str):
     try:
         df = get_dataframe_rodada(rodada_atual)
@@ -102,6 +181,8 @@ def salvando_rodada(rodada_atual:int,path:str):
         print(f'Base carregada para pasta: {path}, na rodada: {rodada_atual}')
     except Exception as err:
         print(f"Não foi possível carregar tabela {rodada_atual}")
+
+
 
 #Iremos só utilizar essa função posteriormente quando enviarmos para o cloud nossos arquivos ...
 def upload_stringio_to_google_storage(bucket_name, stringio, destination_blob_name, fileformat='text/csv'):

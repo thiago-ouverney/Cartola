@@ -115,8 +115,8 @@ def upload_stringio_to_google_storage(bucket_name, stringio, destination_blob_na
     stringio.seek(0)
     blob.upload_from_string(stringio.read(), fileformat)
 
-if __name__ == '__main__':
-
+def run():
+    # Carregando tabelas ainda não foram carregadas
     path_data = str(f"{os.getcwd()}\\data")
     arquivos_salvos = [file for file in os.listdir(path_data) if file.endswith('csv')]
     rodadas_carregadas = []
@@ -128,3 +128,9 @@ if __name__ == '__main__':
     for rodada in range(1, 37):
         if rodada not in rodadas_carregadas:
             salvando_rodada(rodada, path_data)
+
+if __name__ == '__main__':
+    run()
+
+
+

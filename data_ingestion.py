@@ -1,6 +1,6 @@
 import pandas as pd
 import requests, os
-
+#from google.cloud import storage
 
 def get_base_atleta(rodada:int) -> dict:
     """
@@ -10,10 +10,6 @@ def get_base_atleta(rodada:int) -> dict:
     data = f.json()
     return data
 
-
-# Gerando base como dicionário vazio a ser preenchido
-
-# Gerando lista de possíveis scouts::::
 def get_colunas_scout(data: dict) -> list:
     id_atletas = list(data['atletas'].keys())
     colunas_scouts = []
@@ -23,7 +19,6 @@ def get_colunas_scout(data: dict) -> list:
                 if scout not in colunas_scouts:
                     colunas_scouts.append(scout)
     return colunas_scouts
-
 
 def get_dataframe_atletas(rodada_atual: int) -> pd.DataFrame:
     # Where the magic begins
@@ -58,7 +53,6 @@ def get_dataframe_atletas(rodada_atual: int) -> pd.DataFrame:
                 base[coluna].append(data['atletas'][id][coluna])
     return pd.DataFrame(base)
 
-
 def get_dataframe_clubes(rodada_inicial=1) -> pd.DataFrame:
     data = get_base_atleta(rodada_inicial)
     base = {'clube_id': [], 'clube_nome': []}
@@ -74,7 +68,6 @@ def get_dataframe_clubes(rodada_inicial=1) -> pd.DataFrame:
                 base[coluna].append(data['clubes'][clube][coluna])
 
     return (pd.DataFrame(base))
-
 
 def get_dataframe_posicoes(rodada_inicial=1) -> pd.DataFrame:
     data = get_base_atleta(rodada_inicial)
@@ -110,7 +103,17 @@ def salvando_rodada(rodada_atual:int,path:str):
     except Exception as err:
         print(f"Não foi possível carregar tabela {rodada_atual}")
 
-
+#Iremos só utilizar essa função posteriormente quando enviarmos para o cloud nossos arquivos ...
+def upload_stringio_to_google_storage(bucket_name, stringio, destination_blob_name, fileformat='text/csv'):
+    """
+    ENVIA ARQUIVO PARA O STORAGE
+    """
+    storage_client = storage.Client()
+    print('Upload to google storage')
+    bucket = storage_client.get_bucket(bucket_name)
+    blob = bucket.blob(destination_blob_name)
+    stringio.seek(0)
+    blob.upload_from_string(stringio.read(), fileformat)
 
 if __name__ == '__main__':
 
@@ -124,7 +127,4 @@ if __name__ == '__main__':
 
     for rodada in range(1, 37):
         if rodada not in rodadas_carregadas:
-            try:
-                salvando_rodada(rodada, path_data)
-            except Exception as err:
-                print(err)
+            salvando_rodada(rodada, path_data)

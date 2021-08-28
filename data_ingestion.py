@@ -48,8 +48,8 @@ def get_dataframe_atletas(rodada_atual: int) -> pd.DataFrame:
     # Where the magic begins
 
     # Definindo minhas colunas a serem utilizadas
-    data_1_rodada = get_base_atleta(1)  # Estamos considerando que todos os scouts necessários estarão sendo mapeados desde a 1 rodada.
-    colunas_scouts = get_colunas_scout(data_1_rodada)
+    data_7_rodada = get_base_atleta(7)  # Estamos considerando que todos os scouts necessários estarão sendo mapeados desde a 1 rodada.
+    colunas_scouts = get_colunas_scout(data_7_rodada)
     colunas_base = ["rodada", "apelido", 'atleta_id', 'posicao_id', "clube_id", "entrou_em_campo", "pontuacao"]
     base = dict()
     colunas_final = colunas_base + colunas_scouts

@@ -31,6 +31,17 @@ def get_colunas_scout(data: dict) -> list:
                     colunas_scouts.append(scout)
     return colunas_scouts
 
+def get_rodada_carregadas(arquivos_salvos:list) -> list:
+    """
+    Script auxiliar para a partir de uma lista de arquivos salvos, nos retornas quais rodadas ainda temos que trazer
+    """
+    rodadas_carregadas = []
+    for arquivo in arquivos_salvos:
+        ref = arquivo[:-4]
+        rodada = ref.split("_")[-1]
+        rodadas_carregadas.append(int(rodada))
+    return rodadas_carregadas
+
 
 #GERANDO DATAFRAMES AUXILIARES
 def get_dataframe_atletas(rodada_atual: int) -> pd.DataFrame:
@@ -175,14 +186,37 @@ def get_dataframe_confrontos(rodada_atual: int) -> pd.DataFrame:
 
 
 #Salvando Resultado Final
-def salvando_rodada(rodada_atual:int,path:str):
-    try:
-        df = get_dataframe_rodada(rodada_atual)
-        df.to_csv(f'{path}\\Base_Cartola_2021_rodada_{rodada_atual}.csv')
-        print(f'Base carregada para pasta: {path}, na rodada: {rodada_atual}')
-    except Exception as err:
-        print(f"Não foi possível carregar tabela {rodada_atual}")
+def saving_dataframe_cartola_results(path_data):
+    arquivos_salvos_cartola = [file for file in os.listdir(path_data) if
+                               file.endswith('csv') and file.startswith('Base_Cartola')]
+    rodadas_carregadas_cartola = get_rodada_carregadas(arquivos_salvos_cartola)
 
+    for rodada in range(1, 37):
+        if rodada not in rodadas_carregadas_cartola:
+            try:
+                df = get_dataframe_rodada(rodada)
+                df.to_csv(f'{path_data}\\Base_Cartola_2021_rodada_{rodada}.csv')
+                print(f'Base cartola carregada para pasta: {path_data}, na rodada: {rodada}')
+            except:
+                print(f'Base cartola ainda não disponível em API para rodada: {rodada}')
+        else:
+            print(f'Base cartola já existente na pasta: {path_data}, na rodada: {rodada}')
+
+def saving_dataframe_confrontos_results(path_data):
+    arquivos_salvos_confrontos = [file for file in os.listdir(path_data) if
+                                  file.endswith('csv') and file.startswith('Base_Confrontos')]
+    rodadas_carregadas_confrontos = get_rodada_carregadas(arquivos_salvos_confrontos)
+
+    for rodada in range(1, 37):
+        if rodada not in rodadas_carregadas_confrontos:
+            try:
+                df = get_dataframe_confrontos(rodada)
+                df.to_csv(f'{path_data}\\Base_Confrontos_2021_rodada_{rodada}.csv')
+                print(f'Base Confrontos carregada para pasta: {path_data}, na rodada: {rodada}')
+            except:
+                print(f'Base Confrontos ainda não disponível em API para rodada: {rodada}')
+        else:
+            print(f'Base Confrontos já existente na pasta: {path_data}, na rodada: {rodada}')
 
 
 #Iremos só utilizar essa função posteriormente quando enviarmos para o cloud nossos arquivos ...
@@ -200,16 +234,8 @@ def upload_stringio_to_google_storage(bucket_name, stringio, destination_blob_na
 def run():
     # Carregando tabelas ainda não foram carregadas
     path_data = str(f"{os.getcwd()}\\data")
-    arquivos_salvos = [file for file in os.listdir(path_data) if file.endswith('csv')]
-    rodadas_carregadas = []
-    for arquivo in arquivos_salvos:
-        ref = arquivo[:-4]
-        rodada = ref.split("_")[-1]
-        rodadas_carregadas.append(int(rodada))
-
-    for rodada in range(1, 37):
-        if rodada not in rodadas_carregadas:
-            salvando_rodada(rodada, path_data)
+    saving_dataframe_cartola_results(path_data)
+    saving_dataframe_confrontos_results(path_data)
 
 if __name__ == '__main__':
     run()

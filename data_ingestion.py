@@ -195,7 +195,7 @@ def saving_dataframe_cartola_results(path_data):
         if rodada not in rodadas_carregadas_cartola:
             try:
                 df = get_dataframe_rodada(rodada)
-                df.to_csv(f'{path_data}\\Base_Cartola_2021_rodada_{rodada}.csv')
+                df.to_csv(f'{path_data}\\Base_Cartola_2021_rodada_{rodada}.csv',index=False)
                 print(f'Base cartola carregada para pasta: {path_data}, na rodada: {rodada}')
             except:
                 print(f'Base cartola ainda não disponível em API para rodada: {rodada}')
@@ -207,7 +207,7 @@ def saving_dataframe_confrontos_results(path_data):
     for rodada in range(1, 37):
         try:
             df = get_dataframe_confrontos(rodada)
-            df.to_csv(f'{path_data}\\Base_Confrontos_2021_rodada_{rodada}.csv')
+            df.to_csv(f'{path_data}\\Base_Confrontos_2021_rodada_{rodada}.csv',index=False)
             print(f'Base Confrontos carregada para pasta: {path_data}, na rodada: {rodada}')
         except:
             print(f'Base Confrontos ainda não disponível em API para rodada: {rodada}')

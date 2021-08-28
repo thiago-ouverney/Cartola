@@ -100,6 +100,7 @@ def get_dataframe_posicoes(rodada_inicial=1) -> pd.DataFrame:
 
     return (pd.DataFrame(base))
 
+
 def get_dataframe_jogos(rodada_atual: int) -> pd.DataFrame:
     data = get_base_rodada(rodada_atual)
     base = {}
@@ -107,8 +108,7 @@ def get_dataframe_jogos(rodada_atual: int) -> pd.DataFrame:
     colunas_inicial = ['data_realizacao', 'hora_realizacao', 'placar_oficial_visitante', 'placar_oficial_mandante']
     coluna_equipes_mandantes = ['mandante_id', 'mandante_nome']
     coluna_equipes_visitantes = ['visitante_id', 'visitante_nome']
-    colunas_base_rodada = ['rodada', 'jogo_id',
-                           'sede_nome'] + colunas_inicial + coluna_equipes_mandantes + coluna_equipes_visitantes
+    colunas_base_rodada = ['rodada', 'jogo_id'] + colunas_inicial + coluna_equipes_mandantes + coluna_equipes_visitantes
 
     for coluna in colunas_base_rodada:
         base[coluna] = []
@@ -125,8 +125,9 @@ def get_dataframe_jogos(rodada_atual: int) -> pd.DataFrame:
                 base['mandante_nome'].append(data[i][chave]['mandante']['nome_popular'])
                 base['visitante_id'].append(data[i][chave]['visitante']['id'])
                 base['visitante_nome'].append(data[i][chave]['visitante']['nome_popular'])
-            elif chave == 'sede':
-                base['sede_nome'].append(data[i][chave]['nome_popular'])
+            # elif chave == 'sede':
+            #   if data[i][chave]['nome_popular']
+            #   base['sede_nome'].append(data[i][chave]['nome_popular'])
 
     return pd.DataFrame(base)
 

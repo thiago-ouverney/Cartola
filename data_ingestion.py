@@ -203,20 +203,15 @@ def saving_dataframe_cartola_results(path_data):
             print(f'Base cartola já existente na pasta: {path_data}, na rodada: {rodada}')
 
 def saving_dataframe_confrontos_results(path_data):
-    arquivos_salvos_confrontos = [file for file in os.listdir(path_data) if
-                                  file.endswith('csv') and file.startswith('Base_Confrontos')]
-    rodadas_carregadas_confrontos = get_rodada_carregadas(arquivos_salvos_confrontos)
 
     for rodada in range(1, 37):
-        if rodada not in rodadas_carregadas_confrontos:
-            try:
-                df = get_dataframe_confrontos(rodada)
-                df.to_csv(f'{path_data}\\Base_Confrontos_2021_rodada_{rodada}.csv')
-                print(f'Base Confrontos carregada para pasta: {path_data}, na rodada: {rodada}')
-            except:
-                print(f'Base Confrontos ainda não disponível em API para rodada: {rodada}')
-        else:
-            print(f'Base Confrontos já existente na pasta: {path_data}, na rodada: {rodada}')
+        try:
+            df = get_dataframe_confrontos(rodada)
+            df.to_csv(f'{path_data}\\Base_Confrontos_2021_rodada_{rodada}.csv')
+            print(f'Base Confrontos carregada para pasta: {path_data}, na rodada: {rodada}')
+        except:
+            print(f'Base Confrontos ainda não disponível em API para rodada: {rodada}')
+
 
 
 #Iremos só utilizar essa função posteriormente quando enviarmos para o cloud nossos arquivos ...

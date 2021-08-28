@@ -1,0 +1,321 @@
+,rodada,apelido,atleta_id,posicao_id,clube_id,entrou_em_campo,pontuacao,FC,FS,PI,FF,A,DS,DE,GS,FD,SG,CA,FT,G,PC,PS,PP,I,DP,clube_nome,posicao_nome,posicao_abreviacao
+0,6,Zaracho,100079,4,282,True,-0.8,1,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0,Atlético-MG,Meia,mei
+1,6,Paulinho Bóia,100333,5,286,True,0.2,5,0,3,1,0,2,0,0,1,0,1,0,0,0,1,0,0,0,Juventude,Atacante,ata
+2,6,Yuri Alberto,100652,5,285,True,10.1,4,2,7,0,0,0,0,0,4,0,0,0,1,0,0,0,2,0,Internacional,Atacante,ata
+3,6,Matheus Henrique,100742,4,284,True,12.0,3,2,5,0,0,5,0,0,0,0,0,0,1,0,0,0,0,0,Grêmio,Meia,mei
+4,6,Liziero,100761,4,276,True,7.6,1,0,7,1,0,8,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Meia,mei
+5,6,Gabriel Sara,100763,4,276,True,15.7,0,0,1,2,0,2,0,0,1,0,0,1,1,0,0,0,0,0,São Paulo,Meia,mei
+6,6,Conti,100943,3,265,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Zagueiro,zag
+7,6,Ronald,100969,4,356,True,2.3,1,2,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Meia,mei
+8,6,Umberto Louzer,101077,6,292,True,0.83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Técnico,tec
+9,6,Ferreira,101290,5,284,True,6.6,1,4,1,2,0,2,0,0,3,0,1,0,0,0,0,0,0,0,Grêmio,Atacante,ata
+10,6,Guga,101319,2,282,True,1.5,1,1,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Lateral,lat
+11,6,Bruno Silva,101422,5,315,True,-3.3,0,1,3,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,Chapecoense,Atacante,ata
+12,6,Thonny Anderson,101484,4,265,True,-0.7,1,0,2,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Bahia,Meia,mei
+13,6,Pepê,101573,4,1371,True,9.8,1,1,4,0,0,9,0,0,1,0,0,0,0,0,0,0,0,0,Cuiabá,Meia,mei
+14,6,Hugo Moura,101594,4,262,True,-0.1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Meia,mei
+15,6,Felipe Jonatan,101708,2,277,True,0.3,0,0,7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Lateral,lat
+16,6,Bruninho,101716,4,286,True,0.8,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Meia,mei
+17,6,Matheuzinho,101727,2,262,True,4.8,1,2,9,1,0,2,0,0,2,0,0,0,0,0,0,0,0,0,Flamengo,Lateral,lat
+18,6,Diego,101728,3,276,True,1.7,4,0,3,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Zagueiro,zag
+19,6,Vitinho,101960,5,293,True,0.8,0,0,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Athlético-PR,Atacante,ata
+20,6,Xavier,102067,4,264,True,-0.1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Meia,mei
+21,6,Helinho,102598,5,280,True,7.1,0,0,6,0,1,2,0,0,1,0,0,0,0,0,0,0,1,0,Bragantino,Atacante,ata
+22,6,Terans,102878,4,293,True,9.8,0,1,5,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Athlético-PR,Meia,mei
+23,6,Matheus Teixeira,102907,1,265,True,2.0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,0,Bahia,Goleiro,gol
+24,6,Lucas Ribeiro,103088,3,285,True,3.6,2,0,4,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Internacional,Zagueiro,zag
+25,6,Éderson,103099,4,356,True,11.5,3,1,7,0,1,7,0,0,1,0,0,0,0,0,0,0,0,0,Fortaleza,Meia,mei
+26,6,Eric Ramires,103295,4,280,True,1.3,2,1,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Meia,mei
+27,6,Ramon,103515,4,327,True,0.9,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Meia,mei
+28,6,Ignácio,103523,3,315,True,3.1,3,2,2,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Chapecoense,Zagueiro,zag
+29,6,Gabriel Menino,103767,4,275,True,3.4,1,2,3,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,Palmeiras,Meia,mei
+30,6,Hernán Crespo,103912,6,276,True,5.44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Técnico,tec
+31,6,Sabino,104075,3,292,True,0.1,0,0,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Zagueiro,zag
+32,6,João Victor,104250,3,264,True,2.3,0,0,5,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Zagueiro,zag
+33,6,João Lucas,104257,2,1371,True,4.5,1,4,10,0,0,6,0,0,0,0,1,0,0,0,0,0,0,0,Cuiabá,Lateral,lat
+34,6,Calegari,104276,2,266,True,0.1,1,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Lateral,lat
+35,6,Vitor Mendes,104401,3,286,True,-0.7,1,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Zagueiro,zag
+36,6,Christian,104502,4,293,True,6.4,2,3,3,0,0,2,0,0,1,0,0,1,0,0,0,0,0,0,Athlético-PR,Meia,mei
+37,6,Abner Vinícius,104513,2,293,True,3.5,0,0,15,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Lateral,lat
+38,6,Camilo,104519,4,1371,True,-0.8,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Meia,mei
+39,6,Heitor,104649,2,285,True,6.4,1,1,8,1,0,4,0,0,2,0,0,0,0,0,0,0,0,0,Internacional,Lateral,lat
+40,6,Juan Vojvoda,104754,6,356,True,3.67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Técnico,tec
+41,6,Patrick de Lucca,105294,4,265,True,10.5,1,1,7,0,0,2,0,0,1,0,0,0,1,0,0,0,0,0,Bahia,Meia,mei
+42,6,Roni,105585,4,264,True,0.6,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Meia,mei
+43,6,Maurício,105647,4,285,True,12.0,1,1,2,0,1,3,0,0,1,0,0,1,0,0,0,0,0,0,Internacional,Meia,mei
+44,6,Wesley,105811,5,275,True,-0.2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Atacante,ata
+45,6,Geovane,105889,4,327,True,0.3,1,0,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,América-MG,Meia,mei
+46,6,Zé Gabriel,105902,3,285,True,-0.2,2,0,2,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,Internacional,Zagueiro,zag
+47,6,Johnny,106002,4,285,True,1.8,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Internacional,Meia,mei
+48,6,Sylvinho,106047,6,264,True,3.77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Técnico,tec
+49,6,Realpe,106299,3,280,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Zagueiro,zag
+50,6,Léo Pereira,106681,5,284,True,3.5,1,0,5,1,0,3,0,0,1,0,0,0,0,0,0,0,1,0,Grêmio,Atacante,ata
+51,6,Vinicius Machado,106819,1,354,True,4.0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0,0,0,Ceará,Goleiro,gol
+52,6,Welington ,106824,2,276,True,1.4,3,0,13,0,0,5,0,0,1,0,1,0,0,0,0,0,0,0,São Paulo,Lateral,lat
+53,6,Talles,106830,4,276,True,-0.4,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,São Paulo,Meia,mei
+54,6,Guedes,107013,4,315,True,-1.9,3,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Meia,mei
+55,6,Gomes,107109,4,262,True,-3.1,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Flamengo,Meia,mei
+56,6,Natan,107110,3,280,True,-1.1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Zagueiro,zag
+57,6,Rodrigo Muniz,107112,5,262,True,0.5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Atacante,ata
+58,6,André,107498,4,266,True,-0.3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Meia,mei
+59,6,Victor Bobsin,107501,4,284,True,8.1,2,3,4,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Meia,mei
+60,6,Rafael Luiz,107543,2,280,True,1.6,0,0,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Lateral,lat
+61,6,Caio Vidal,107745,5,285,True,3.5,0,2,10,1,0,1,0,0,1,0,1,0,1,0,0,0,1,0,Internacional,Atacante,ata
+62,6,Felipe Felício,107898,5,282,True,2.0,0,2,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Atlético-MG,Atacante,ata
+63,6,Gabriel Lacerda,108176,3,354,True,8.1,0,0,9,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Ceará,Zagueiro,zag
+64,6,Foguinho,108329,4,315,True,0.9,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Meia,mei
+65,6,Luiz Henrique,109282,5,266,True,-2.5,1,1,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Fluminense,Atacante,ata
+66,6,Weverson,109426,2,280,True,0.2,1,1,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Lateral,lat
+67,6,Calebe,109461,4,282,True,0.3,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Meia,mei
+68,6,Martinelli,109573,4,266,True,-0.4,3,0,9,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Meia,mei
+69,6,Renan,109963,3,275,True,4.9,0,0,9,1,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Zagueiro,zag
+70,6,Igor Torres,110303,5,356,True,1.0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Atacante,ata
+71,6,Abel Ferreira,110506,6,275,True,2.96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Técnico,tec
+72,6,Gabriel Pirani,110607,4,277,True,2.7,0,2,3,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Meia,mei
+73,6,Luiz Filipe,110632,5,282,True,-1.1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Atacante,ata
+74,6,Gustavo Oliveira,110633,4,292,True,1.8,0,1,7,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Meia,mei
+75,6,Vinícius Mello,110687,5,285,True,-0.1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Internacional,Atacante,ata
+76,6,Gabriel Teixeira,110760,4,266,True,1.2,1,5,8,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Fluminense,Meia,mei
+77,6,Wendson,110948,5,354,True,-1.1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Ceará,Atacante,ata
+78,6,João Paulo,111281,1,315,True,9.0,0,0,0,0,0,1,10,2,0,0,0,0,0,0,0,0,0,0,Chapecoense,Goleiro,gol
+79,6,Marcos Vinicios,111333,5,286,True,6.5,0,5,2,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,Juventude,Atacante,ata
+80,6,Vitinho,111406,4,264,True,-1.0,1,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Meia,mei
+81,6,Felipe Augusto,111408,5,264,True,0.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Atacante,ata
+82,6,Victor Gabriel,111466,2,292,True,-0.7,1,0,2,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Sport,Lateral,lat
+83,6,Luiz Fernando Iubel,111547,6,1371,True,4.47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Técnico,tec
+84,6,António Oliveira,111578,6,293,True,2.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Técnico,tec
+85,6,Ricardinho,111813,5,284,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Atacante,ata
+86,6,Kayky,111829,5,266,True,2.1,0,1,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Atacante,ata
+87,6,Gabriel Chapecó,112616,1,284,True,-1.0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,Grêmio,Goleiro,gol
+88,6,Guto Ferreira,37245,6,354,True,3.84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ceará,Técnico,tec
+89,6,Jô,38138,5,264,True,11.3,3,1,5,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,Corinthians,Atacante,ata
+90,6,Rafinha,38144,2,284,True,1.2,4,2,18,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Lateral,lat
+91,6,Fred,38162,5,266,True,0.2,2,1,5,1,0,0,0,0,2,0,0,0,0,0,0,0,4,0,Fluminense,Atacante,ata
+92,6,Fábio Santos,38229,2,264,True,-0.2,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Lateral,lat
+93,6,Thiago Neves,38277,4,292,True,0.9,1,0,4,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Meia,mei
+94,6,Wellington Paulista,38279,5,356,True,0.6,1,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Atacante,ata
+95,6,Jadson,38315,4,293,True,-0.2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Meia,mei
+96,6,Thiago Heleno,38394,3,293,True,0.0,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Zagueiro,zag
+97,6,Diego Alves,38509,1,262,True,3.0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,0,0,0,Flamengo,Goleiro,gol
+98,6,Felipe Melo,38545,4,275,True,1.2,1,0,3,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Meia,mei
+99,6,Elton,38588,5,1371,True,6.6,2,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Cuiabá,Atacante,ata
+100,6,Filipe Luís,38750,2,262,True,0.9,0,0,11,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Lateral,lat
+101,6,Diego,38909,4,262,True,-0.1,5,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Meia,mei
+102,6,Nenê,38913,4,266,True,-0.2,0,2,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Meia,mei
+103,6,Daniel Alves,38939,2,276,True,0.5,1,1,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Lateral,lat
+104,6,Hulk,39148,5,282,True,8.6,1,2,3,4,1,0,0,0,1,0,0,0,0,0,0,0,2,0,Atlético-MG,Atacante,ata
+105,6,Vagner Mancini,39850,6,327,True,2.21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Técnico,tec
+106,6,Willian,42116,5,275,True,2.8,0,1,5,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Atacante,ata
+107,6,Felipe Santana,42140,3,315,True,1.2,1,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Chapecoense,Zagueiro,zag
+108,6,Osvaldo,42222,5,356,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Atacante,ata
+109,6,Cássio,42234,1,264,True,1.0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,Corinthians,Goleiro,gol
+110,6,Cuca,42411,6,282,True,2.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Técnico,tec
+111,6,Fagner,42500,2,264,True,3.7,0,4,13,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Lateral,lat
+112,6,Titi,50353,3,356,True,1.6,1,1,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Zagueiro,zag
+113,6,Eduardo,50645,2,327,True,1.5,1,1,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Lateral,lat
+114,6,Walter,51413,1,1371,True,3.0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,0,0,0,Cuiabá,Goleiro,gol
+115,6,Réver,52253,3,282,True,-1.4,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,Atlético-MG,Zagueiro,zag
+116,6,Ytalo,53148,5,280,True,23.4,1,1,4,1,0,1,0,0,0,0,1,0,3,0,0,0,0,0,Bragantino,Atacante,ata
+117,6,Felipe Azevedo,60825,5,327,True,0.4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Atacante,ata
+118,6,Patric,60969,2,327,True,4.2,1,1,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Lateral,lat
+119,6,Rodriguinho,61033,4,265,True,2.5,0,1,8,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Bahia,Meia,mei
+120,6,Gilberto,61188,5,265,True,0.5,1,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Bahia,Atacante,ata
+121,6,Douglas Costa,62020,5,284,True,-1.2,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Grêmio,Atacante,ata
+122,6,Edimar,62024,2,280,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Lateral,lat
+123,6,Pará,62086,2,277,True,0.0,1,0,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Lateral,lat
+124,6,William Matheus,62130,2,286,True,2.0,0,1,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Lateral,lat
+125,6,Ganso,62977,4,266,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Meia,mei
+126,6,Marcos Rocha,63013,2,275,True,-2.4,1,0,9,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Palmeiras,Lateral,lat
+127,6,Alan Ruschel,63110,2,327,True,4.9,1,2,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Lateral,lat
+128,6,Paulão,63172,3,1371,True,-0.7,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Zagueiro,zag
+129,6,Edenílson,63289,4,285,True,-0.8,1,1,11,1,0,2,0,0,0,0,1,0,0,0,0,0,1,0,Internacional,Meia,mei
+130,6,André,68690,5,292,True,-0.4,3,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Atacante,ata
+131,6,Camacho,68770,4,277,True,5.2,1,0,3,0,1,3,0,0,0,0,1,0,0,0,0,0,0,0,Santos,Meia,mei
+132,6,Nino Paraíba,68808,2,265,True,-1.7,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Lateral,lat
+133,6,Diego Souza,68911,5,284,True,7.8,3,0,2,0,1,0,0,0,0,0,1,0,1,0,0,0,3,0,Grêmio,Atacante,ata
+134,6,Gil,68923,3,264,True,5.9,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Zagueiro,zag
+135,6,Marinho,68952,5,277,True,7.7,4,2,4,2,0,2,0,0,0,0,1,0,1,0,0,0,1,0,Santos,Atacante,ata
+136,6,Santos,69012,1,293,True,5.0,0,0,0,0,0,0,7,2,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Goleiro,gol
+137,6,Danilo Fernandes,69051,1,265,False,-5.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Goleiro,gol
+138,6,Marcelo Carné,69054,1,286,True,1.0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,Juventude,Goleiro,gol
+139,6,Pablo,69138,5,276,True,-0.6,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Atacante,ata
+140,6,Anselmo Ramon,69214,5,315,True,3.5,1,5,7,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Chapecoense,Atacante,ata
+141,6,Marllon,70666,3,1371,True,6.6,1,1,4,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Zagueiro,zag
+142,6,Joao Rojas,70784,5,276,True,-0.2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Atacante,ata
+143,6,Diogo Barbosa,70916,2,284,True,1.9,1,0,16,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Lateral,lat
+144,6,Wescley,70925,4,286,True,-0.6,2,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Meia,mei
+145,6,Léo Cittadini,70986,4,293,True,7.5,0,3,2,0,0,5,0,0,1,0,0,0,0,0,0,0,0,0,Athlético-PR,Meia,mei
+146,6,Felipe Baxola,71113,4,315,True,-0.2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Meia,mei
+147,6,Vina,71162,4,354,True,6.0,0,1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Ceará,Meia,mei
+148,6,Jenison,71505,5,1371,True,-0.1,0,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Atacante,ata
+149,6,Fernando Miguel,71571,1,373,True,5.0,0,0,0,0,0,0,2,0,0,1,1,0,0,0,0,0,0,0,Atlético-GO,Goleiro,gol
+150,6,Anderson Conceição,71618,3,1371,True,0.9,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Zagueiro,zag
+151,6,Óscar Ruíz,71691,4,265,True,2.1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Bahia,Meia,mei
+152,6,Elton,71719,4,286,True,-0.2,2,1,5,1,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Juventude,Meia,mei
+153,6,Juninho Valoura,71937,4,327,True,7.8,3,2,17,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,América-MG,Meia,mei
+154,6,Tiago Volpi,72018,1,276,True,-1.0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,São Paulo,Goleiro,gol
+155,6,Everson,72294,1,282,True,3.0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Goleiro,gol
+156,6,Rodrigo Lindoso,72362,4,285,True,1.9,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Internacional,Meia,mei
+157,6,Felipe Alves,72372,1,356,True,2.0,0,0,0,0,0,0,4,2,0,0,0,0,0,0,0,0,0,0,Fortaleza,Goleiro,gol
+158,6,Mike,72389,5,315,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Atacante,ata
+159,6,Fernando Diniz,72391,6,277,True,3.41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Técnico,tec
+160,6,Luiz Adriano,72772,5,275,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Atacante,ata
+161,6,Samuel Xavier,73384,2,266,True,1.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Lateral,lat
+162,6,Luccas Claro,73465,3,266,True,-0.3,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Zagueiro,zag
+163,6,Bruno Alves,73620,3,276,True,6.1,0,4,1,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,São Paulo,Zagueiro,zag
+164,6,Diego Aguirre,73766,6,285,True,5.13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Internacional,Técnico,tec
+165,6,Rodrigo Caio,73800,3,262,True,1.3,0,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Zagueiro,zag
+166,6,Alison,73974,4,277,True,0.4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Meia,mei
+167,6,Dado Cavalcanti,73975,6,265,True,2.17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Técnico,tec
+168,6,Abel Hernández,74159,5,266,True,-0.6,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Atacante,ata
+169,6,Jorginho,77544,4,354,True,3.4,0,2,8,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,Ceará,Meia,mei
+170,6,Auremir,77570,4,1371,True,0.8,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Meia,mei
+171,6,Eduardo Barroca,77774,6,373,True,3.89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-GO,Técnico,tec
+172,6,Madson,78077,2,277,True,-0.6,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Lateral,lat
+173,6,Didi,78237,3,286,True,0.8,0,0,2,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,Juventude,Zagueiro,zag
+174,6,Vitinho,78435,5,262,True,2.7,2,0,9,3,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Flamengo,Atacante,ata
+175,6,Renê,78445,2,262,True,0.9,0,1,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Lateral,lat
+176,6,Willian Arão,78478,3,262,True,-0.4,2,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Zagueiro,zag
+177,6,Jean Mota,78548,4,277,True,1.4,3,1,6,0,0,5,0,0,0,0,1,0,0,0,0,0,0,0,Santos,Meia,mei
+178,6,Jonathan Cafu,78580,5,1371,True,0.9,4,3,6,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Atacante,ata
+179,6,Gabriel,78605,4,264,True,7.2,0,0,4,2,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Meia,mei
+180,6,Thiago Santos,78855,4,284,True,3.6,5,1,4,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Meia,mei
+181,6,Marcão Silva,78856,4,292,True,-3.6,3,1,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Sport,Meia,mei
+182,6,Rodrigo Dourado,78865,4,285,True,1.7,3,1,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Internacional,Meia,mei
+183,6,Rafael Gava,78867,4,1371,True,11.2,3,0,3,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Cuiabá,Meia,mei
+184,6,Luiz Felipe,79035,3,277,True,5.3,0,2,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Zagueiro,zag
+185,6,Víctor Cuesta,79113,3,285,True,-0.5,3,1,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Internacional,Zagueiro,zag
+186,6,Ricardo Silva,79334,3,327,True,-7.3,2,0,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,América-MG,Zagueiro,zag
+187,6,Roger Machado ,79437,6,266,True,0.17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Técnico,tec
+188,6,Zé Roberto,80076,5,373,True,-0.8,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-GO,Atacante,ata
+189,6,Yago Pikachu,80196,4,356,True,1.4,0,1,9,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Meia,mei
+190,6,Michel,80664,2,286,True,3.6,0,0,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Lateral,lat
+191,6,Pedro Geromel,80853,3,284,True,0.6,0,1,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Zagueiro,zag
+192,6,Marquinhos Santos,81031,6,286,True,1.44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Técnico,tec
+193,6,Jair,81091,4,282,True,-0.7,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Meia,mei
+194,6,Mayke,81150,2,275,True,-0.7,1,1,5,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Palmeiras,Lateral,lat
+195,6,Fernando Canesin,81585,4,293,True,1.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Meia,mei
+196,6,Carlos Sánchez,81677,4,277,True,1.0,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Meia,mei
+197,6,Bruno Nazário,81776,4,327,True,-0.8,1,1,6,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,América-MG,Meia,mei
+198,6,Rossi,81798,5,265,True,14.6,0,0,21,0,1,0,0,0,1,0,0,1,1,0,0,0,1,0,Bahia,Atacante,ata
+199,6,Osman,81898,5,1371,True,1.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Atacante,ata
+200,6,Marcelo Toscano,82276,5,327,True,-0.2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Atacante,ata
+201,6,Juninho,82381,4,327,True,-0.9,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Meia,mei
+202,6,Chico,82407,4,286,True,-0.2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Meia,mei
+203,6,Tinga,82628,2,356,True,-0.2,0,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Lateral,lat
+204,6,Paulinho Moccelin,82640,5,292,True,-0.7,3,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Atacante,ata
+205,6,Rafael Forster,82764,3,286,True,-1.2,2,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Juventude,Zagueiro,zag
+206,6,Maurício Barbieri,82792,6,280,True,4.26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Técnico,tec
+207,6,Betinho,82876,4,292,True,3.7,1,1,13,1,0,3,0,0,1,0,0,0,0,0,0,0,0,0,Sport,Meia,mei
+208,6,Matheus Ribeiro,82943,2,315,True,-0.7,1,1,17,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Lateral,lat
+209,6,Rafael Thyere,83048,3,292,True,-0.4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Zagueiro,zag
+210,6,Marcos Guilherme ,83266,5,277,True,10.6,3,2,4,0,0,4,0,0,0,0,0,0,1,0,0,0,1,0,Santos,Atacante,ata
+211,6,Patrick,83433,4,285,True,13.0,1,2,7,1,1,5,0,0,2,0,0,0,0,0,0,0,0,0,Internacional,Meia,mei
+212,6,Neilton,83772,5,292,True,0.5,0,0,7,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Sport,Atacante,ata
+213,6,Clayson,83817,5,1371,True,0.9,1,2,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Atacante,ata
+214,6,Danilo Barcelos,84382,2,266,True,-0.9,3,1,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Lateral,lat
+215,6,Fernando Sobral,84428,4,354,True,3.0,2,2,8,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Ceará,Meia,mei
+216,6,Romarinho,84523,5,356,True,2.1,0,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Fortaleza,Atacante,ata
+217,6,Lucas Evangelista,84674,4,280,True,0.3,2,4,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Meia,mei
+218,6,Robson,84817,5,356,True,0.1,1,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Fortaleza,Atacante,ata
+219,6,Marcos Felipe ,85004,1,266,True,0.5,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Fluminense,Goleiro,gol
+220,6,Vinicius Silvestre,85083,1,275,True,0.0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,Palmeiras,Goleiro,gol
+221,6,Cantillo,85315,4,264,True,2.2,0,3,11,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Corinthians,Meia,mei
+222,6,João Paulo,85425,1,277,True,2.0,0,0,0,0,0,0,4,2,0,0,0,0,0,0,0,0,0,0,Santos,Goleiro,gol
+223,6,Jonas,85586,4,265,True,1.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Meia,mei
+224,6,Léo,85626,2,276,True,4.4,1,3,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Lateral,lat
+225,6,Hyoran,85931,4,282,True,2.5,0,2,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Meia,mei
+226,6,Natanael,86264,2,373,True,10.9,2,2,7,2,0,2,0,0,0,1,0,1,0,0,0,0,0,0,Atlético-GO,Lateral,lat
+227,6,Victor Luis,86410,2,275,True,5.7,1,2,8,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Lateral,lat
+228,6,Keno,86485,5,282,True,2.8,2,1,5,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Atlético-MG,Atacante,ata
+229,6,Tchê Tchê,86686,4,282,True,0.7,0,0,1,1,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Atlético-MG,Meia,mei
+230,6,Richard,86711,4,293,True,-5.1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Meia,mei
+231,6,João Paulo,86770,4,373,True,0.0,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-GO,Meia,mei
+232,6,Danilo Barbosa,86777,4,275,True,3.6,0,2,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Meia,mei
+233,6,Luiz Otávio ,86863,3,265,True,-0.5,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Zagueiro,zag
+234,6,Pedro Henrique,87225,3,293,True,0.2,0,0,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Zagueiro,zag
+235,6,Guilherme Arana,87228,2,282,True,-2.2,1,1,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Atlético-MG,Lateral,lat
+236,6,Willian Maranhão,87262,4,373,True,-1.2,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-GO,Meia,mei
+237,6,Kannemann,87342,3,284,True,8.0,0,0,8,1,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Zagueiro,zag
+238,6,Messias,87402,3,354,True,1.4,0,0,6,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Ceará,Zagueiro,zag
+239,6,Vitor Bueno,87552,5,276,True,3.0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,São Paulo,Atacante,ata
+240,6,Tréllez,87679,5,292,True,7.3,1,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Sport,Atacante,ata
+241,6,Yago Felipe,87747,4,266,True,1.5,1,4,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fluminense,Meia,mei
+242,6,Matheus Vargas,87929,4,356,True,2.5,1,2,2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Fortaleza,Meia,mei
+243,6,Gustavo Scarpa,87999,4,275,True,3.8,1,2,20,4,0,1,0,0,3,0,1,0,0,0,0,0,1,0,Palmeiras,Meia,mei
+244,6,Gabriel Dias,88368,2,354,True,-0.6,3,1,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Ceará,Lateral,lat
+245,6,Aderlan,88423,2,280,True,-1.9,0,0,9,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Bragantino,Lateral,lat
+246,6,Marlon,88427,4,354,True,0.7,0,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Ceará,Meia,mei
+247,6,Lucas Crispim,88597,4,356,True,1.8,1,1,9,0,0,2,0,0,1,0,0,0,0,0,0,0,1,0,Fortaleza,Meia,mei
+248,6,Luan Polli ,88916,1,373,False,-2.0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Atlético-GO,Goleiro,gol
+249,6,Mendoza,90031,5,354,True,5.9,3,3,7,3,0,3,0,0,1,0,0,0,0,0,0,0,0,0,Ceará,Atacante,ata
+250,6,Bruno Pacheco,90061,2,354,True,-1.7,2,1,12,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Ceará,Lateral,lat
+251,6,Rodolfo,90264,5,327,True,5.7,1,2,2,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Atacante,ata
+252,6,Bruno Henrique,90285,5,262,True,25.0,1,3,8,1,0,5,0,0,0,0,0,1,2,0,0,0,0,0,Flamengo,Atacante,ata
+253,6,David,90309,5,356,True,8.7,1,3,3,0,0,2,0,0,0,0,1,0,1,0,0,0,0,0,Fortaleza,Atacante,ata
+254,6,Yuri Lima,90569,4,1371,True,2.3,0,3,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Meia,mei
+255,6,Anderson Jesus,90700,3,327,True,0.5,3,3,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Zagueiro,zag
+256,6,Fabrício Bruno,90768,3,280,True,-0.9,2,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Zagueiro,zag
+257,6,Carlos Eduardo,90917,5,293,True,1.0,0,0,3,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,Athlético-PR,Atacante,ata
+258,6,Fernandinho,91130,5,315,True,3.3,0,4,7,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Atacante,ata
+259,6,Éder,91203,3,373,True,4.7,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Atlético-GO,Zagueiro,zag
+260,6,Eder,91521,5,276,True,0.3,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,2,0,São Paulo,Atacante,ata
+261,6,Rony,91607,5,275,True,-0.3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Atacante,ata
+262,6,Igor Cariús,91639,2,373,True,7.4,1,1,6,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,Atlético-GO,Lateral,lat
+263,6,Nino,91708,3,266,True,0.5,2,2,5,0,0,3,0,0,0,0,1,0,0,0,0,0,0,0,Fluminense,Zagueiro,zag
+264,6,Felipe,91733,4,356,True,1.9,1,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Meia,mei
+265,6,Hayner,91856,2,292,True,0.6,1,2,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Lateral,lat
+266,6,Zé Ivaldo,91866,3,293,True,1.0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Zagueiro,zag
+267,6,André Luís,92146,5,373,True,3.6,0,0,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Atlético-GO,Atacante,ata
+268,6,Jair Ventura,92180,6,315,True,2.42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Técnico,tec
+269,6,Ravanelli,92193,4,315,True,7.0,1,1,14,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Chapecoense,Meia,mei
+270,6,Thiago Lopes,92225,4,292,True,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sport,Meia,mei
+271,6,Raul,92496,4,280,True,3.0,0,1,3,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Meia,mei
+272,6,Renato Kayzer,92696,5,293,True,-0.2,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Athlético-PR,Atacante,ata
+273,6,Deyverson,92708,5,275,True,2.8,0,3,7,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Palmeiras,Atacante,ata
+274,6,Mateus Vital,93108,4,264,True,4.4,2,3,5,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,Corinthians,Meia,mei
+275,6,Benítez,93550,4,276,True,11.6,2,2,14,1,0,3,0,0,1,0,0,0,1,0,0,0,0,0,São Paulo,Meia,mei
+276,6,Maycon Douglas,93653,5,265,True,0.7,2,2,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Atacante,ata
+277,6,Marlon Freitas,93790,4,373,True,1.0,1,0,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-GO,Meia,mei
+278,6,Daniel,93791,4,265,True,-1.2,2,1,5,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Bahia,Meia,mei
+279,6,Marcinho,93797,2,293,True,-5.1,2,1,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Athlético-PR,Lateral,lat
+280,6,Cleiton,93882,1,280,True,2.0,0,0,0,0,0,0,5,1,0,0,1,0,0,0,0,0,0,0,Bragantino,Goleiro,gol
+281,6,Breno Lopes,93988,5,275,True,7.3,3,0,2,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Palmeiras,Atacante,ata
+282,6,Ribamar,94068,5,327,True,3.7,2,2,7,3,0,1,0,0,0,0,0,0,0,0,1,0,0,0,América-MG,Atacante,ata
+283,6,Perotti,94286,5,315,True,-0.7,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Atacante,ata
+284,6,Lima,94288,4,315,True,0.6,1,0,9,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Chapecoense,Meia,mei
+285,6,Raphael Veiga,94509,4,275,True,0.7,4,0,9,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Palmeiras,Meia,mei
+286,6,Pedro,94583,5,262,True,9.4,0,2,2,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Atacante,ata
+287,6,Capixaba,94894,5,286,True,-0.2,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Atacante,ata
+288,6,Juninho Capixaba,94968,2,265,True,-0.9,3,2,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bahia,Lateral,lat
+289,6,Matheus Jesus,95335,4,286,True,4.1,1,2,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Meia,mei
+290,6,Orejuela,95352,2,276,True,0.7,0,1,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,São Paulo,Lateral,lat
+291,6,Marcelo Benevenuto,95638,3,356,True,3.1,3,0,4,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Fortaleza,Zagueiro,zag
+292,6,Lucas Kal,95662,3,327,True,-0.1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Zagueiro,zag
+293,6,Nathan Silva,95794,3,282,True,5.4,3,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,Atlético-MG,Zagueiro,zag
+294,6,Artur,95799,5,280,True,8.5,2,1,10,2,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Bragantino,Atacante,ata
+295,6,Lima,96340,4,354,True,12.7,0,2,7,0,0,2,0,0,2,0,0,0,1,0,0,0,0,0,Ceará,Meia,mei
+296,6,Daniel,96468,1,285,True,4.0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0,0,0,Internacional,Goleiro,gol
+297,6,Allan,96652,4,282,True,-0.2,4,1,9,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Atlético-MG,Meia,mei
+298,6,Rigoni,96684,5,276,True,9.0,3,0,7,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,São Paulo,Atacante,ata
+299,6,Arthur Gomes,96966,5,373,True,7.4,1,3,6,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-GO,Atacante,ata
+300,6,Yony González,97080,5,354,True,0.4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ceará,Atacante,ata
+301,6,Dudu,97133,2,373,True,6.7,3,1,13,0,0,4,0,0,0,1,0,0,0,0,0,0,0,0,Atlético-GO,Lateral,lat
+302,6,Janderson,97245,5,373,True,0.2,3,3,6,1,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Atlético-GO,Atacante,ata
+303,6,Zé Ricardo,97317,4,327,True,2.7,0,0,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,América-MG,Meia,mei
+304,6,Rogério Ceni,97341,6,262,True,4.36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Flamengo,Técnico,tec
+305,6,Bueno,97425,3,282,True,1.6,0,2,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-MG,Zagueiro,zag
+306,6,Gustavo Mosquito,97450,5,264,True,4.2,0,1,6,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,Corinthians,Atacante,ata
+307,6,Jori,97453,1,327,True,1.0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,América-MG,Goleiro,gol
+308,6,Erick,98022,2,293,True,-2.5,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Athlético-PR,Lateral,lat
+309,6,Maílson,98034,1,292,True,0.0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,Sport,Goleiro,gol
+310,6,Tiago Nunes,98057,6,284,True,4.68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Técnico,tec
+311,6,Ronei,98419,4,315,True,-1.1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Chapecoense,Meia,mei
+312,6,Fernando Pacheco,98740,5,286,True,-0.1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Juventude,Atacante,ata
+313,6,Lucas Hernández,98822,2,1371,True,2.3,0,2,7,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Cuiabá,Lateral,lat
+314,6,Jean Pyerre,98832,4,284,True,0.4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grêmio,Meia,mei
+315,6,Cuello,98909,5,280,True,3.4,0,1,1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Bragantino,Atacante,ata
+316,6,Derlan,98945,3,315,True,5.9,0,1,6,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Chapecoense,Zagueiro,zag
+317,6,Lucas Braga,99119,5,277,True,1.5,0,2,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Santos,Atacante,ata
+318,6,Michael,99392,5,262,True,3.2,2,0,13,1,0,4,0,0,1,0,0,0,0,0,0,0,1,0,Flamengo,Atacante,ata
+319,6,Baralhas,99440,4,373,True,-0.1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Atlético-GO,Meia,mei

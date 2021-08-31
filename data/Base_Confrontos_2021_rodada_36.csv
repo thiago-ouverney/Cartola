@@ -1,0 +1,21 @@
+rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+36,262,Flamengo,354,Ceará,,,270241,,,True
+36,264,Corinthians,293,Athletico-PR,,,270242,,,True
+36,276,São Paulo,292,Sport,,,270243,,,True
+36,282,Atlético-MG,266,Fluminense,,,270244,,,True
+36,285,Internacional,277,Santos,,,270245,,,True
+36,356,Fortaleza,286,Juventude,,,270246,,,True
+36,265,Bahia,284,Grêmio,,,270247,,,True
+36,280,Bragantino,327,América-MG,,,270248,,,True
+36,315,Chapecoense,373,Atlético-GO,,,270249,,,True
+36,1371,Cuiabá,275,Palmeiras,,,270250,,,True
+36,354,Ceará,262,Flamengo,,,270241,,,False
+36,293,Athletico-PR,264,Corinthians,,,270242,,,False
+36,292,Sport,276,São Paulo,,,270243,,,False
+36,266,Fluminense,282,Atlético-MG,,,270244,,,False
+36,277,Santos,285,Internacional,,,270245,,,False
+36,286,Juventude,356,Fortaleza,,,270246,,,False
+36,284,Grêmio,265,Bahia,,,270247,,,False
+36,327,América-MG,280,Bragantino,,,270248,,,False
+36,373,Atlético-GO,315,Chapecoense,,,270249,,,False
+36,275,Palmeiras,1371,Cuiabá,,,270250,,,False

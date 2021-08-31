@@ -1,0 +1,21 @@
+rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+1,1371,Cuiabá,286,Juventude,2,2,270160,2021-05-29T19:00,19:00,True
+1,265,Bahia,277,Santos,3,0,270157,2021-05-29T20:00,20:00,True
+1,276,São Paulo,266,Fluminense,0,0,270153,2021-05-29T21:00,21:00,True
+1,282,Atlético-MG,356,Fortaleza,1,2,270154,2021-05-30T11:00,11:00,True
+1,262,Flamengo,275,Palmeiras,1,0,270151,2021-05-30T16:00,16:00,True
+1,354,Ceará,284,Grêmio,3,2,270156,2021-05-30T16:00,16:00,True
+1,264,Corinthians,373,Atlético-GO,0,1,270152,2021-05-30T18:15,18:15,True
+1,315,Chapecoense,280,Bragantino,0,3,270158,2021-05-30T18:15,18:15,True
+1,293,Athletico-PR,327,América-MG,1,0,270159,2021-05-30T18:15,18:15,True
+1,285,Internacional,292,Sport,2,2,270155,2021-05-30T20:30,20:30,True
+1,286,Juventude,1371,Cuiabá,2,2,270160,2021-05-29T19:00,19:00,False
+1,277,Santos,265,Bahia,0,3,270157,2021-05-29T20:00,20:00,False
+1,266,Fluminense,276,São Paulo,0,0,270153,2021-05-29T21:00,21:00,False
+1,356,Fortaleza,282,Atlético-MG,2,1,270154,2021-05-30T11:00,11:00,False
+1,275,Palmeiras,262,Flamengo,0,1,270151,2021-05-30T16:00,16:00,False
+1,284,Grêmio,354,Ceará,2,3,270156,2021-05-30T16:00,16:00,False
+1,373,Atlético-GO,264,Corinthians,1,0,270152,2021-05-30T18:15,18:15,False
+1,280,Bragantino,315,Chapecoense,3,0,270158,2021-05-30T18:15,18:15,False
+1,327,América-MG,293,Athletico-PR,0,1,270159,2021-05-30T18:15,18:15,False
+1,292,Sport,285,Internacional,2,2,270155,2021-05-30T20:30,20:30,False

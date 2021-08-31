@@ -1,0 +1,21 @@
+rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+31,262,Flamengo,265,Bahia,,,270321,,,True
+31,275,Palmeiras,373,Atlético-GO,,,270322,,,True
+31,277,Santos,280,Bragantino,,,270323,,,True
+31,282,Atlético-MG,264,Corinthians,,,270324,,,True
+31,284,Grêmio,266,Fluminense,,,270325,,,True
+31,356,Fortaleza,276,São Paulo,,,270326,,,True
+31,292,Sport,327,América-MG,,,270327,,,True
+31,293,Athletico-PR,354,Ceará,,,270328,,,True
+31,286,Juventude,285,Internacional,,,270329,,,True
+31,1371,Cuiabá,315,Chapecoense,,,270330,,,True
+31,265,Bahia,262,Flamengo,,,270321,,,False
+31,373,Atlético-GO,275,Palmeiras,,,270322,,,False
+31,280,Bragantino,277,Santos,,,270323,,,False
+31,264,Corinthians,282,Atlético-MG,,,270324,,,False
+31,266,Fluminense,284,Grêmio,,,270325,,,False
+31,276,São Paulo,356,Fortaleza,,,270326,,,False
+31,327,América-MG,292,Sport,,,270327,,,False
+31,354,Ceará,293,Athletico-PR,,,270328,,,False
+31,285,Internacional,286,Juventude,,,270329,,,False
+31,315,Chapecoense,1371,Cuiabá,,,270330,,,False

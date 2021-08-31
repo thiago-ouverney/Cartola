@@ -1,0 +1,21 @@
+rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+15,292,Sport,280,Bragantino,0,0,270418,2021-08-06T19:00,19:00,True
+15,293,Athletico-PR,276,São Paulo,1,2,270419,2021-08-07T18:00,18:00,True
+15,275,Palmeiras,356,Fortaleza,2,3,270414,2021-08-07T21:00,21:00,True
+15,1371,Cuiabá,265,Bahia,1,1,270421,2021-08-07T21:00,21:00,True
+15,277,Santos,264,Corinthians,0,0,270413,2021-08-08T16:00,16:00,True
+15,327,América-MG,266,Fluminense,1,0,270415,2021-08-08T16:00,16:00,True
+15,286,Juventude,282,Atlético-MG,1,2,270420,2021-08-08T16:00,16:00,True
+15,262,Flamengo,285,Internacional,0,4,270412,2021-08-08T18:15,18:15,True
+15,354,Ceará,373,Atlético-GO,0,0,270417,2021-08-08T18:15,18:15,True
+15,284,Grêmio,315,Chapecoense,2,1,270416,2021-08-09T20:00,20:00,True
+15,280,Bragantino,292,Sport,0,0,270418,2021-08-06T19:00,19:00,False
+15,276,São Paulo,293,Athletico-PR,2,1,270419,2021-08-07T18:00,18:00,False
+15,356,Fortaleza,275,Palmeiras,3,2,270414,2021-08-07T21:00,21:00,False
+15,265,Bahia,1371,Cuiabá,1,1,270421,2021-08-07T21:00,21:00,False
+15,264,Corinthians,277,Santos,0,0,270413,2021-08-08T16:00,16:00,False
+15,266,Fluminense,327,América-MG,0,1,270415,2021-08-08T16:00,16:00,False
+15,282,Atlético-MG,286,Juventude,2,1,270420,2021-08-08T16:00,16:00,False
+15,285,Internacional,262,Flamengo,4,0,270412,2021-08-08T18:15,18:15,False
+15,373,Atlético-GO,354,Ceará,0,0,270417,2021-08-08T18:15,18:15,False
+15,315,Chapecoense,284,Grêmio,1,2,270416,2021-08-09T20:00,20:00,False

@@ -1,0 +1,21 @@
+rodada,clube_id,clube_nome,aversario_id,aversario_nome,gols_pro,gols_contra,jogo_id,data_realizacao,hora_realizacao,mandante
+3,275,Palmeiras,264,Corinthians,1,1,270172,2021-06-12T19:00,19:00,True
+3,277,Santos,286,Juventude,0,0,270173,2021-06-12T19:00,19:00,True
+3,262,Flamengo,327,América-MG,2,0,270171,2021-06-13T16:00,16:00,True
+3,282,Atlético-MG,276,São Paulo,1,0,270174,2021-06-13T16:00,16:00,True
+3,284,Grêmio,293,Athletico-PR,0,1,270175,2021-06-13T16:00,16:00,True
+3,265,Bahia,285,Internacional,0,1,270176,2021-06-13T20:30,20:30,True
+3,356,Fortaleza,292,Sport,1,0,270177,2021-06-13T20:30,20:30,True
+3,280,Bragantino,266,Fluminense,2,2,270178,2021-06-13T20:30,20:30,True
+3,315,Chapecoense,354,Ceará,0,0,270179,2021-06-13T20:30,20:30,True
+3,1371,Cuiabá,373,Atlético-GO,2,1,270180,2021-07-21T19:00,19:00,True
+3,264,Corinthians,275,Palmeiras,1,1,270172,2021-06-12T19:00,19:00,False
+3,286,Juventude,277,Santos,0,0,270173,2021-06-12T19:00,19:00,False
+3,327,América-MG,262,Flamengo,0,2,270171,2021-06-13T16:00,16:00,False
+3,276,São Paulo,282,Atlético-MG,0,1,270174,2021-06-13T16:00,16:00,False
+3,293,Athletico-PR,284,Grêmio,1,0,270175,2021-06-13T16:00,16:00,False
+3,285,Internacional,265,Bahia,1,0,270176,2021-06-13T20:30,20:30,False
+3,292,Sport,356,Fortaleza,0,1,270177,2021-06-13T20:30,20:30,False
+3,266,Fluminense,280,Bragantino,2,2,270178,2021-06-13T20:30,20:30,False
+3,354,Ceará,315,Chapecoense,0,0,270179,2021-06-13T20:30,20:30,False
+3,373,Atlético-GO,1371,Cuiabá,1,2,270180,2021-07-21T19:00,19:00,False
